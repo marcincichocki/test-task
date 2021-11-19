@@ -1,0 +1,5 @@
+{
+  "mypage": {
+    "title": "Test pl {{ title }}"
+  }
+}

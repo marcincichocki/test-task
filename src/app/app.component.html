@@ -1,0 +1,6 @@
+<p>Service: {{ result$ | async }}</p>
+<p>Pipe: {{ key | translate: params }}</p>
+
+<label for="lang">change languge</label>
+<input type="checkbox" id="lang" [formControl]="langCheckbox" />
+<p>Current lang: {{ translateService.currentLang }}</p>
